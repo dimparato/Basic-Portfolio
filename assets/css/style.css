@@ -1,0 +1,12 @@
+header {
+    color: #4aaaa5;
+    background: #ffffff;
+    border: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+p {
+    color: #777777;
+    background: #ffffff;
+    border: #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
