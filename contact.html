@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfolio About Page</title>
+    <title>Portfolio Contact Page</title>
     <link href="assets/css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
   </head>
@@ -13,10 +13,14 @@
         <li>Daniel Imparato</li>
     </ul>
     <div>
-      <h3>About Me</h3>
+      <h3>Contact Me</h3>
       <hr>
-      <img src="assets/images/twit.jpg" alt="Me" height="300" width="300">
-        <p>I sired three children. I have a master's degree in philosophy. I enjoy consuming meat & Coca-Cola. Keep calm & code.</p>
+      <form action="mailto:ponticremator@gmail.com" method="post" enctype="text/plain">
+        Name:<br><input type="text" name="name" value="SpongeBob SquarePants" size="50"><br><br>
+        Email:<br><input type="text" name="email" value="SpongeBob@BikiniBottom.com" size="50"><br><br>
+        Message:<br><textarea name="message" rows="10" cols="125">Who lives in a pineapple under the sea?</textarea><br><br>
+        <input type="submit" value="Submit">
+      </form>
     </div>
     <footer>
         <p>Copyright © Daniel Imparato</p>
